@@ -9,9 +9,6 @@ var moveZeroes = function (nums) {
         partial = nums[j];
         nums[j] = nums[i];
         nums[i] = partial;
-        console.log("i = ", nums[i]);
-        console.log("j = ", nums[j]);
-        console.log("Partial = ", partial);
         console.log("Arr = ", nums);
       }
     }

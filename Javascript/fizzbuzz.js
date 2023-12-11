@@ -9,7 +9,7 @@ answer[i] == i (as a string) if none of the above conditions are true.
 */
 
 
-const int = 15
+const int = 20;
 
 const fizzBuzz = (n) => {
 
