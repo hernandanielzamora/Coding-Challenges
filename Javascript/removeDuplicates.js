@@ -1,9 +1,9 @@
 const nums = [1, 1, 2];
 
 var removeDuplicates = function (nums) {
-  let ptr1 = 0,
-    ptr2 = 1,
-    len = nums.length;
+  let ptr1 = 0;
+  let ptr2 = 0;
+  let len = nums.length;
 
   while (ptr2 < len) {
     if (nums[ptr1] != nums[ptr2]) {
